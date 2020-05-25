@@ -6,7 +6,8 @@ lazy val root = (project in file(".")).
 )
 
 libraryDependencies ++= Seq(
-  "org.typelevel" %% "spire" % "0.14.1"
+  "org.typelevel" %% "spire" % "0.14.1",
+  "org.scalanlp" %% "breeze" % "1.0"
 )
 
 // End ///////////////////////////////////////////////////////////////
